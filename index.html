@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلم البرمجة</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin:0;
+            font-family:'Cairo', sans-serif;
+            background:#0f172a; /* كحلي */
+            color:#fff;
+        }
+
+        header{
+            padding:80px 20px;
+            text-align:center;
+        }
+
+        h1{
+            font-size:48px;
+            font-weight:900;
+            margin-bottom:20px;
+        }
+
+        header p{
+            max-width:700px;
+            margin:auto;
+            font-size:18px;
+            color:#cbd5e1;
+            line-height:1.8;
+            margin-bottom:30px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:14px 25px;
+            border-radius:10px;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .blue{
+            background:#2563eb;
+            color:white;
+        }
+
+        .blue:hover{
+            background:#1d4ed8;
+        }
+
+        .green{
+            background:#16a34a;
+            color:white;
+        }
+
+        .green:hover{
+            background:#15803d;
+        }
+
+        /* ===== sections ===== */
+
+        section{
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        h2{
+            font-size:32px;
+            margin-bottom:30px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+            max-width:1000px;
+            margin:auto;
+        }
+
+        .card{
+            border:2px solid #6b7280; /* رمادي */
+            border-radius:15px;
+            padding:20px;
+            background:rgba(255,255,255,0.03);
+        }
+
+        .card h3{
+            margin-bottom:10px;
+        }
+
+        .card p{
+            color:#cbd5e1;
+            font-size:15px;
+        }
+
+        /* ===== responsive ===== */
+
+        @media(max-width:768px){
+            h1{
+                font-size:32px;
+            }
+
+            .grid{
+                grid-template-columns:1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+  <!--يمكنك تغيير العنوان من هنا -->
+    <h1>تعلم البرمجة وابدأ بناء مستقبلك اليوم</h1>
+
+    <p>
+        البرمجة من أهم مهارات العصر الحديث، وتفتح لك فرصًا كبيرة في العمل وبناء المشاريع الخاصة.
+        ابدأ تعلم البرمجة اليوم واكتسب مهارة مطلوبة في سوق العمل ومستقبل التكنولوجيا.
+    </p>
+
+    <a href="https://wa.me/201234567890" class="btn blue">
+        اشترك عبر الواتساب الآن
+    </a>
+    <br>
+    <hr>
+</header>
+
+<section>
+
+    <h2>ماذا ستتعلم؟</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>أساسيات البرمجة</h3>
+            <p>تعلم المفاهيم الأساسية بطريقة سهلة للمبتدئين.</p>
+        </div>
+
+        <div class="card">
+            <h3>بناء المشاريع</h3>
+            <p>تطبيق عملي يساعدك على اكتساب الخبرة.</p>
+        </div>
+
+        <div class="card">
+            <h3>تطوير مهاراتك</h3>
+            <p>اكتساب مهارة مطلوبة في سوق العمل الحديث.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+
+    <h2>ابدأ الآن</h2>
+
+    <p style="color:#cbd5e1; max-width:600px; margin:auto; margin-bottom:20px;">
+        لا تؤجل تعلم مهارة المستقبل. انضم الآن وابدأ رحلتك في عالم البرمجة.
+    </p>
+<!-- يمكنك تغيير الرقم الخاص بالواتساب من اسفل هنا -->
+    <a href="https://wa.me/201234567890" class="btn green">
+        تواصل عبر الواتساب
+    </a>
+
+</section>
+
+</body>
+</html>
