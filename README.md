@@ -23,4 +23,4 @@ This landing page serves as a bridge between potential students and the programm
 4. Save the file, and your landing page is ready to go!
 
 ---
-*Designed & Developed by [اكتب اسمك هنا]*
+*Designed & Developed by RayanGoma
